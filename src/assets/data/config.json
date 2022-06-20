@@ -1,0 +1,43 @@
+{
+  "activity": {
+    "description": "活动相关的配置: startTime开始时间;days活动持续天数;totalYields挖矿总产出",
+    "startTime": {
+      "year": 2022,
+      "month": 6,
+      "date": 18,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "ms": 0
+    },
+    "days": 120,
+    "totalYields": 6000
+  },
+  "contract": {
+    "description": "合约相关的配置",
+    "IVY": {
+      "address": "0x00CE333b9E5d4F5d09f63D0d109ff752CCF511e2"
+    },
+    "IVY_Token": {
+      "address": "0x6603e72C7C8AEAd2014D9FD97F55e4bE254009B1"
+    },
+    "Cake_LP": {
+      "address": "0xB90b5a0246279244D5002FFD31a89Fe99C16D71a"
+    }
+  },
+  "wallet": {
+    "chainId": "0x38",
+    "chainName": "BNB Chain",
+    "rpcUrls": [
+      "https://bsc-dataseed.binance.org/"
+    ],
+    "blockExplorerUrls": [
+      "https://bscscan.com/"
+    ],
+    "nativeCurrency": {
+      "name": "BNB",
+      "symbol": "BNB",
+      "decimals": 18
+    }
+  }
+}
